@@ -1,0 +1,30 @@
+# Arduino / PlatformIO build output
+build/
+*.elf
+*.bin
+*.hex
+*.map
+.pio/
+.vscode/.browse*
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python tooling (plots and figures)
+__pycache__/
+*.pyc
+.venv/
+
+# Desktop clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw capture material (processed copies live in media/ and test/)
+raw/
+*.mp4
+*.mov
+*.dng
