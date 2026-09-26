@@ -1,13 +1,15 @@
 Ref,Qty,Description,Manufacturer,MPN,Distributor,Distributor PN,Unit price USD,Price basis,Notes
-U1,1,ESP32 development board (ESP32-WROOM-32UE, 4 MB flash),Espressif Systems,ESP32-DEVKITC-32UE,DigiKey,1965-ESP32-DEVKITC-32UE-ND,10.00,quoted,
+U1,1,"ESP32 development board (ESP32-WROOM-32UE, 4 MB flash)",Espressif Systems,ESP32-DEVKITC-32UE,DigiKey,1965-ESP32-DEVKITC-32UE-ND,10.00,quoted,
 MK1,1,Electret microphone with MAX4466 preamp and adjustable gain,Adafruit Industries,1063,DigiKey,1528-1013-ND,6.95,quoted,gain trimmer set to maximum
 J1,1,USB-C breakout board with 5.1 kOhm CC resistors fitted,Adafruit Industries,4090,DigiKey,1528-2873-ND,2.95,quoted,two bought; one fitted
 U2 U3 U4,3,10-LED bar-graph driver marked LM3915N-1 (measured linear),unknown (counterfeit),marked LM3915N-1,Amazon/eBay multipack,,1.10,estimated,about $11 for a 10-pack; not a genuine LM3915
-DS1 DS2 DS3,3,10-segment LED bar graph: red (bass) / yellow (mid) / green (treble),SunLED,XGURX10D / XGUYX10D / XGUGX10D,DigiKey,1497-1085-5-ND / 1497-1086-5-ND / 1497-1082-5-ND,4.12 / 4.12 / 4.41,quoted,
+DS1,1,"10-segment LED bar graph, red (bass)",SunLED,XGURX10D,DigiKey,1497-1085-5-ND,4.12,quoted,
+DS2,1,"10-segment LED bar graph, yellow (mid)",SunLED,XGUYX10D,DigiKey,1497-1086-5-ND,4.12,quoted,
+DS3,1,"10-segment LED bar graph, green (treble)",SunLED,XGUGX10D,DigiKey,1497-1082-5-ND,4.41,quoted,
 R1 R2 R3,3,Resistor 2.2 kOhm 1/4 W carbon film 5%,SparkFun kit,10969,DigiKey,1568-10969-ND,,from kit,LED current about 5.7 mA; designed 1.2 kOhm was not on hand
 R4 R5 R6,3,Resistor 10 kOhm 1/4 W carbon film 5%,SparkFun kit,10969,DigiKey,1568-10969-ND,,from kit,PWM filter
 C1 C2 C3,3,Capacitor 1 uF 50 V electrolytic,SparkFun kit,13698,DigiKey,1568-13698-ND,,from kit,PWM filter; positive lead to the filter node
 C4 C5 C6,3,Capacitor 10 uF electrolytic,SparkFun kit,13698,DigiKey,1568-13698-ND,,from kit,driver bypass at each V+ pin
-—,3,Perfboard,,,,,,already owned,three-board stack
-—,1,Metal hex standoffs and screws,,,,,,already owned,
-—,1,Hook-up wire and pin headers,,,,,,already owned,
+-,3,Perfboard,,,,,,already owned,three-board stack
+-,1,Metal hex standoffs and screws,,,,,,already owned,
+-,1,Hook-up wire and pin headers,,,,,,already owned,
