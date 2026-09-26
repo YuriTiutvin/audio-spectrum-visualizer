@@ -36,13 +36,11 @@ The same channel was then driven from the ESP32 through the PWM and RC filter.
 
 A small sketch that prints the raw ADC minimum and maximum was used to set the microphone gain before the trimmer became hard to reach. At maximum gain, loud music spanned 600–3,290 counts with no clipping, and the trimmer was left there. Power moved to an Adafruit USB-C breakout, whose built-in CC resistors let a USB-C charger or power bank supply 5 V.
 
-![Breadboard with the USB-C breakout feeding the ESP32 and one driver channel](../media/build-02.jpg)
-
 ## 7 · Perfboard
 
 The circuit moved to three perfboards stacked on metal standoffs, with every part soldered directly and the microphone board mounted so its gain trimmer stays reachable. Each driver got its own 10 µF bypass capacitor, and the LED ground and the microphone ground run separately to one point. The microphone capsule's protective cover began to lift during soldering.
 
-![The display board part-way through assembly, with wires still to be connected to the rest of the stack](../media/build-03.jpg)
+![The display board part-way through assembly, with wires still to be connected to the rest of the stack](../media/build-02.jpg)
 
 ## 8 · Display firmware
 
